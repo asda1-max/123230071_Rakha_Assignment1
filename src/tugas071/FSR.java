@@ -6,20 +6,8 @@ package tugas071;
 
 /**
  *
- * @author A Z E R O T H
+ * @author rakha
  */
-interface Overclockable {
-    void overclock(double increment);
-}
-
-interface DLSS{
-    void dlssVersion(int version);
-}
-
-interface FSR{
+public interface FSR{
     void fsrVersion(int version);
-}
-
-interface XESS{
-    void xessVersion(int version);
 }
