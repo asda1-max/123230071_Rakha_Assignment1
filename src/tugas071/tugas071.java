@@ -20,7 +20,7 @@ public class tugas071 {
         nvidia.monitorTemperature();
         nvidia.vramAmount();
         nvidia.overclock(250);
-        nvidia.dlssVersion(4);
+        nvidia.dlssVersion(3);
 
         System.out.println("\n=== AMD GPU ===");
         amd.boostClock();

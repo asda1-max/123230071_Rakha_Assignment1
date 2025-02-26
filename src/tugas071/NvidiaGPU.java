@@ -8,7 +8,7 @@ package tugas071;
  *
  * @author A Z E R O T H
  */
-class NvidiaGPU extends GPU implements Overclockable, DLSS {
+public class NvidiaGPU extends GPU implements Overclockable, DLSS {
     NvidiaGPU(String name, int vram, double clockSpeed, int temperature) {
         super(name, vram, clockSpeed, temperature);
     }

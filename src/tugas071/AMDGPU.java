@@ -8,7 +8,7 @@ package tugas071;
  *
  * @author A Z E R O T H
  */
-    class AMDGPU extends GPU implements Overclockable, FSR {
+    public class AMDGPU extends GPU implements Overclockable, FSR {
     AMDGPU(String name, int vram, double clockSpeed, int temperature) {
         super(name, vram, clockSpeed, temperature);
     }

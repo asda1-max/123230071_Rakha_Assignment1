@@ -9,7 +9,7 @@ package tugas071;
  * @author A Z E R O T H
  */
 // Subclass: IntelGPU
-class IntelGPU extends GPU implements XESS {
+public class IntelGPU extends GPU implements XESS {
     IntelGPU(String name, int vram, double clockSpeed, int temperature) {
         super(name, vram, clockSpeed, temperature);
     }
